@@ -1,4 +1,6 @@
 //¿Cuál es la salida del siguiente código? 
-int m[2][3] = {{1,2,3},{4,5,6}}; 
-cout << m[1][2]; 
-//A) 6     B) 4     C) 3     D) 5   Respuesta: A
+int a[] = {4,7,1}; 
+int* p = a; 
+*p = *(p+1) + *(p+2); 
+cout << a[0]; 
+//A) 12     B) 7     C) 4     D) 8   Respuesta: C
